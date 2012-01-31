@@ -65,6 +65,29 @@
             </objects>
             <point key="canvasLocation" x="455" y="64"/>
         </scene>
+        <scene sceneID="WsA-Ti-iPR">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pfQ-dN-SyG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="0eR-Ph-Ady" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ASd-zL-aJx">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tips" lineBreakMode="tailTruncation" minimumFontSize="10" id="Dj6-Vx-ER4">
+                                <rect key="frame" x="133" y="67" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="twU-UN-FLw"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1367" y="64"/>
+        </scene>
         <scene sceneID="24">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23" sceneMemberID="firstResponder"/>
@@ -110,7 +133,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="G7t-0k-g6K">
-                                <rect key="frame" x="0.0" y="318" width="320" height="45"/>
+                                <rect key="frame" x="-1" y="318" width="320" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Tips (12)">
@@ -120,6 +143,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="0eR-Ph-Ady" kind="push" id="mUL-NT-7ac"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="20090320-numpang-sandwichpickles.jpg" id="eNf-b0-TF7">
                                 <rect key="frame" x="-1" y="7" width="322" height="171"/>
