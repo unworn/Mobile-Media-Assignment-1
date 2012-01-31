@@ -14,7 +14,7 @@
     float dessertPrice = 5.50;
     float winePrice = 34.25;
     
-    int numberOfGuests = 4;
+    int numberOfGuests = 6;
     
     float taxRate = .0875;
     float tipRate = .2;
@@ -29,9 +29,9 @@
     int numberOfWineBottlesOrdered = 0;
     
     numberOfEntreesOrdered = numberOfGuests;
-    numberOfAppetizersOrdered = numberOfGuests /2;
+    numberOfAppetizersOrdered = numberOfGuests / 2;
     numberOfDessertsOrdered = numberOfGuests;
-    numberOfWineBottlesOrdered = numberOfGuests / 4;
+    numberOfWineBottlesOrdered = ceil( ((float) numberOfGuests) / 4.0);
     
     dinnerPrice = (entreePrice * numberOfEntreesOrdered) + (appetizerPrice * numberOfAppetizersOrdered) + (dessertPrice * numberOfDessertsOrdered) + (winePrice * numberOfWineBottlesOrdered);
                                                                                                                                                       
@@ -55,6 +55,7 @@
     
     
     // Print the dinner price
+    NSLog(@"number of Wine Bottles is now %d", numberOfWineBottlesOrdered);
     NSLog(@"Dinner for a family of %d costs $%.2f. The tip should be $%.2f and the taxes will be $%.2f. The total dinner price will be $%.2f", numberOfGuests, dinnerPrice, tip, taxes, totalDinnerPrice);
     return dinnerPrice;
     
