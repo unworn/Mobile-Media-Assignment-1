@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03FD649514D7728800213B9B /* 20090320-numpang-sandwichpickles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03FD649414D7728800213B9B /* 20090320-numpang-sandwichpickles.jpg */; };
 		0E02F6BD14CD10E300C3EAE8 /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E02F6BC14CD10E300C3EAE8 /* Restaurant.m */; };
 		0EE5A6D414BEB490006BB5E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE5A6D314BEB490006BB5E1 /* UIKit.framework */; };
 		0EE5A6D614BEB490006BB5E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE5A6D514BEB490006BB5E1 /* Foundation.framework */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03FD649414D7728800213B9B /* 20090320-numpang-sandwichpickles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20090320-numpang-sandwichpickles.jpg"; sourceTree = "<group>"; };
 		0E02F6BB14CD10E300C3EAE8 /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
 		0E02F6BC14CD10E300C3EAE8 /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
 		0EE5A6CF14BEB490006BB5E1 /* Restaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurants.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +89,7 @@
 				0E02F6BC14CD10E300C3EAE8 /* Restaurant.m */,
 				0EE5A6E214BEB490006BB5E1 /* AppDelegate.h */,
 				0EE5A6E314BEB490006BB5E1 /* AppDelegate.m */,
+				03FD649414D7728800213B9B /* 20090320-numpang-sandwichpickles.jpg */,
 				0EE5A6E514BEB491006BB5E1 /* MainStoryboard.storyboard */,
 				0EE5A6E814BEB491006BB5E1 /* MasterViewController.h */,
 				0EE5A6E914BEB491006BB5E1 /* MasterViewController.m */,
@@ -160,6 +163,7 @@
 			files = (
 				0EE5A6DE14BEB490006BB5E1 /* InfoPlist.strings in Resources */,
 				0EE5A6E714BEB491006BB5E1 /* MainStoryboard.storyboard in Resources */,
+				03FD649514D7728800213B9B /* 20090320-numpang-sandwichpickles.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
