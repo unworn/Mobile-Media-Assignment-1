@@ -74,6 +74,7 @@
         float priceForFamily8 = [self priceOfDinnerForGuests:4];
         float priceForFamily9 = [self priceOfDinnerForGuests:5];
         float priceForFamily10 = [self priceOfDinnerForGuests:5];
+        NSLog(@"total price for 10 tables is $%.2f", priceForFamily1+priceForFamily2+priceForFamily3+priceForFamily4+priceForFamily5+priceForFamily6+priceForFamily7+priceForFamily8+priceForFamily9+priceForFamily10);
     }
     return self;
 }
